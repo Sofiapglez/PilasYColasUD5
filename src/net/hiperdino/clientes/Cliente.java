@@ -27,4 +27,18 @@ public class Cliente {
     public List <String> getCestaCompra() {
         return cestaCompra;
     }
+
+    @Override
+    public String toString() {
+        String listaProductos = "";
+        for (String producto : cestaCompra) {
+            listaProductos += producto + "\n";
+        }
+        return "Cliente\n" +
+                "=========================================\n" +
+                "* Nombre: " + nombre + "\n" +
+                "* Total de productos: " +  cestaCompra.size() + "\n" +
+                "*Lista de artículos en la cesta_\n" + listaProductos +
+                "=========================================";
+    }
 }
