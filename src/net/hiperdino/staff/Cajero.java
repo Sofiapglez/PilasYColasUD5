@@ -12,10 +12,8 @@ public class Cajero {
     private int numeroCaja;
     private Queue<Cliente> filaClientes;
 
-    public Cajero(String nombre, String id, int salario, Queue<String> filaClientes) {
+    public Cajero(String nombre) {
         this.nombre = nombre;
-        this.id = id;
-        this.salario = salario;
         this.filaClientes = new LinkedList<>();
     }
 
@@ -40,8 +38,9 @@ public class Cajero {
         return "Cajero\n" +
                 "===================================\n" +
                 "* Número de caja: " + numeroCaja + "\n" +
-                "* Total de clientes: " +  + filaClientes.size() + "\n" +
+                "* Total de clientes: " + +filaClientes.size() + "\n" +
                 "* Cliente en la fila:\n" + listaClientes +
                 "===================================\n";
     }
 }
+

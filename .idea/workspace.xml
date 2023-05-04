@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="dd91bcc5-6513-4431-838c-345f9d749e7f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/net/hiperdino/clientes/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/hiperdino/clientes/Cliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/net/hiperdino/staff/Cajero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/hiperdino/staff/Cajero.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/net/hiperdino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/hiperdino/Main.java" afterDir="false" />
+>>>>>>> cajero
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
