@@ -9,11 +9,26 @@ public class Cliente {
     private String dni;
     private List<String> cestaCompra;
 
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getApellidos() {
+        return apellidos;
+    }
+
+    public String getDni() {
+        return dni;
+    }
+
     public Cliente(String nombre, String apellidos, String dni, List<String> cestaCompra) {
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.dni = dni;
         this.cestaCompra = new ArrayList<>();
+    }
+
+    public Cliente(String nombre) {
     }
 
     public void agregarProductoACesta(String producto) {

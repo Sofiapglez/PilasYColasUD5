@@ -17,6 +17,22 @@ public class Cajero {
         this.filaClientes = new LinkedList<>();
     }
 
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public int getSalario() {
+        return salario;
+    }
+
+    public Queue<Cliente> getFilaClientes() {
+        return filaClientes;
+    }
+
     public void agregarCliente(Cliente cliente) {
         filaClientes.add(cliente);
     }
@@ -41,6 +57,22 @@ public class Cajero {
                 "* Total de clientes: " + +filaClientes.size() + "\n" +
                 "* Cliente en la fila:\n" + listaClientes +
                 "===================================\n";
+    }
+
+    public void abrirCaja() {
+        System.out.println("Caja abierta");
+    }
+
+    public boolean hayClientesEnCola() {
+        return hayClientesEnCola();
+    }
+
+    public int getNumeroCaja() {
+        return numeroCaja;
+    }
+
+    public void cerrarCaja() {
+        System.out.println("Caja cerrada");
     }
 }
 
